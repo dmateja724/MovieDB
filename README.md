@@ -8,6 +8,8 @@ To get the app ready for use run `npm run configure`, that will install node mod
 
 # Starting the app
 
+The API key is currenly left blank. You will need to go to `./src/api/MoviesAPI.js` and update `API_KEY` at the top with the correct value.`
+
 Once the app is configured all you need to do is run this command in your terminal
 
 - `npm start`
