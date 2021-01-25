@@ -3,13 +3,13 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 const DetailsHeader = (props) => {
   return (
-    <TouchableOpacity onPress={props.onCancel}>
-      <View style={styles.container}>
+    <View style={styles.container}>
+      <TouchableOpacity onPress={props.onCancel}>
         <View style={styles.circle}>
           <Text style={styles.text}>X</Text>
         </View>
-      </View>
-    </TouchableOpacity>
+      </TouchableOpacity>
+    </View>
   );
 };
 
