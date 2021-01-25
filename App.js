@@ -15,6 +15,9 @@ const App = () => {
       })
       .then((movies) => {
         setPopMovies(movies);
+      })
+      .catch((error) => {
+        console.log(error);
       });
   });
 

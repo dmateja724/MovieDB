@@ -17,6 +17,9 @@ const MovieCard = (props) => {
       })
       .then((details) => {
         props.showDetails(details);
+      })
+      .catch((error) => {
+        console.log(error);
       });
   };
 
